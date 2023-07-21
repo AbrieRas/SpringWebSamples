@@ -1,0 +1,5 @@
+1. Check dependencies in pom.xml / gradle
+2. Check properties in ./resources/application.properties e.g. port, db, etc.
+3. Implement structure e.g. controllers, enums, entities, repositories, etc.
+4. Test project via mvnw spring-boot:run (cd is root directory) and then use curl commands for requests
+5. Implement test data ./resources/data.sql
